@@ -1,0 +1,6 @@
+let void main()
+{
+String first := "Hello";
+String second := "World";
+print(first + second);
+}

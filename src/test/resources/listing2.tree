@@ -1,0 +1,33 @@
+program
+ └─function
+    ├─id: main
+    ├─returned type: void
+    └─blocks
+       ├─declaration
+       │  ├─type: String
+       │  └─assigment
+       │     ├─id: first
+       │     └─math expression
+       │        └─string expression
+       │           └─string variable
+       │              └─"Hello"
+       ├─declaration
+       │  ├─type: String
+       │  └─assigment
+       │     ├─id: second
+       │     └─math expression
+       │        └─string expression
+       │           └─string variable
+       │              └─"World"
+       └─function call
+          ├─id: print
+          └─parameters
+             └─math expression
+                └─number math expression
+                   ├─number math expression
+                   │  └─number variable
+                   │     └─id: first
+                   ├─operator: +
+                   └─number math expression
+                      └─number variable
+                         └─id: second
