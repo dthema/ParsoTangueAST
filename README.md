@@ -43,7 +43,7 @@ ID(parameters);
       * string_variable
   * Логическое выражение (bool_expression): 
     * (bool_expression)
-    * *((bool_expression), bool_variable)* *(==, !=)* *((bool_expression), bool_variable)*,
+    * *((bool_expression), bool_variable)* *(==, !=)* *((bool_expression), bool_variable)*
     * number_variable *(>=, <=, >, <, ==, !=)* number_variable
     * string_variable *(>=, <=, >, <, ==, !=)* string_variable
     * bool_variable
@@ -57,7 +57,7 @@ ID(parameters);
 ### Токены:
 * FUNCTION_TYPE: void, TYPE
 * TYPE: Integer, String, Boolean
-* ID: идентификатор, всегда начинающийся с латинской буквы. Далее могут следовать также буквы, цифры или подчёркивания.
+* ID: идентификатор, всегда начинающийся с латинской буквы. Далее могут следовать также буквы, цифры или подчёркивания
 * NUMBER: целое число число от 0 до ∞
 * STRING: "(любой символ кроме ")", '(любой символ кроме ')'
 * BOOL_VAR: true, false
