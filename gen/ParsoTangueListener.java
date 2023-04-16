@@ -317,16 +317,6 @@ public interface ParsoTangueListener extends ParseTreeListener {
 	 */
 	void exitFunction_type(ParsoTangueParser.Function_typeContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link ParsoTangueParser#bool_operator}.
-	 * @param ctx the parse tree
-	 */
-	void enterBool_operator(ParsoTangueParser.Bool_operatorContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link ParsoTangueParser#bool_operator}.
-	 * @param ctx the parse tree
-	 */
-	void exitBool_operator(ParsoTangueParser.Bool_operatorContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link ParsoTangueParser#first_bool_operator}.
 	 * @param ctx the parse tree
 	 */

@@ -196,12 +196,6 @@ public interface ParsoTangueVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitFunction_type(ParsoTangueParser.Function_typeContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link ParsoTangueParser#bool_operator}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitBool_operator(ParsoTangueParser.Bool_operatorContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link ParsoTangueParser#first_bool_operator}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

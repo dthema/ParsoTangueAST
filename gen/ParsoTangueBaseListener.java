@@ -388,18 +388,6 @@ public class ParsoTangueBaseListener implements ParsoTangueListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBool_operator(ParsoTangueParser.Bool_operatorContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitBool_operator(ParsoTangueParser.Bool_operatorContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterFirst_bool_operator(ParsoTangueParser.First_bool_operatorContext ctx) { }
 	/**
 	 * {@inheritDoc}
