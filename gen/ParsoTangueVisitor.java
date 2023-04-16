@@ -1,4 +1,4 @@
-// Generated from /Users/glebbeglecov/IdeaProjects/ParsoTangue AST/src/main/antlr4/ParsoTangue.g4 by ANTLR 4.12.0
+// Generated from C:/Users/Gleb Begletsov/Java/ParsoTangueAST/src/main/antlr4\ParsoTangue.g4 by ANTLR 4.12.0
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

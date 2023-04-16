@@ -27,8 +27,7 @@ assigment               : ID ASSIGMENT expression;
 expression              : math_expr | bool_expr;
 
 bool_expr               : bool_expr_or_bool_var
-                          | '(' bool_expr ')' bool_op_with_expr*
-                          | bool_expr_var bool_op_with_expr*
+                          | bool_expr_or_bool_var bool_op_with_expr*
                           | number_bool_expr
                           | string_bool_expr;
 bool_op_with_expr       : second_bool_operator bool_expr_or_bool_var;
